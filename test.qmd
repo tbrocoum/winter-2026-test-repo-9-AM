@@ -6,13 +6,31 @@ date: "2026-02-20"
 editor: visual
 ---
 
-#Set Up 
+# Set Up 
 
 ```{r}
 #| label: packages and data
+#| message: false
+#| warning: false
 library(tidyverse) #general use package 
 library(lterdatasampler) #package of data sets
 
 data(pie_crab) #crab size dataset 
 ```
+
+# Exploratory data visualizatoin 
+```{r}
+
+ggplot(data=pie_crab,
+       aes(x = latitude, 
+           y = size)
+       ) +
+  #points to represent individual crabs 
+  geom_point()
+```
+
+
+
+
+
 
