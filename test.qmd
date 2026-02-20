@@ -1,0 +1,18 @@
+---
+title: "test doc for 9am"
+author: "Taylor Brocoum"
+format: html
+date: "2026-02-20"
+editor: visual
+---
+
+#Set Up 
+
+```{r}
+#| label: packages and data
+library(tidyverse) #general use package 
+library(lterdatasampler) #package of data sets
+
+data(pie_crab) #crab size dataset 
+```
+
