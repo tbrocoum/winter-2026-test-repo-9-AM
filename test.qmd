@@ -6,7 +6,7 @@ date: "2026-02-20"
 editor: visual
 ---
 
-# Set Up 
+# Set Up
 
 ```{r}
 #| label: packages and data
@@ -19,7 +19,8 @@ library(NatParksPalettes) #color packets
 data(pie_crab) #crab size dataset 
 ```
 
-# Exploratory data visualizatoin 
+# Exploratory data visualizatoin
+
 ```{r}
 
 ggplot(data=pie_crab,
@@ -33,9 +34,7 @@ ggplot(data=pie_crab,
     values = natparks.pals("Arches", n = 13, type = "continuous")
   )
 ```
-
-
-
-
-
-
+ 
+ 
+ 
+ 
